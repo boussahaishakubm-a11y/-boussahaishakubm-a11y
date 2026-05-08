@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishaq | Computer Science Student</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+    --main-blue: #2563eb;
+    --dark-navy: #1e293b;
+    --light-gray: #f8fafc;
+    --text-main: #334155;
+}
+
+body {
+    background-color: var(--light-gray);
+    color: var(--text-main);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: var(--dark-navy);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 4px solid var(--main-blue);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.section-title {
+    text-align: center;
+    color: var(--dark-navy);
+    margin-bottom: 40px;
+    font-size: 1.8rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border: 1px solid #e2e8f0;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--main-blue);
+}
+
+.skill-card h3 {
+    color: var(--main-blue);
+    margin-top: 0;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border-left: 6px solid var(--main-blue);
+}
+
+.tag {
+    background: #dbeafe;
+    color: var(--main-blue);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="hero-content">
+            <h1>I am ishak</h1>
+            <p>I specialize in software engineering and database development</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="skills">
+            <h2 class="section-title"> programming skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Java & OOP</h3>
+                    <p>Iam a software developer proficient in object-oriented programming and database systems, with the ability to build applications and integrate them with relational databas</p>
+                </div>
+                <div class="skill-card">
+                    <h3>SQL & Databases</h3>
+                    <p>Data Modeler and  I am an expert in Microsoft SQL Server and database design.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Iam a full stack web developer.</p>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+</body>
+</html>
